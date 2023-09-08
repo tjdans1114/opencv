@@ -25,3 +25,6 @@ build
 node_modules
 CMakeSettings.json
 xcuserdata/
+!build_js/
+build_js/*
+!build_js/bin/
