@@ -88,7 +88,7 @@ ignore_list = ['locate',  #int&
                'phaseCorrelate',
                'randShuffle',
                'calibrationMatrixValues', #double&
-               'undistortPoints', # global redefinition
+            #    'undistortPoints', # global redefinition
                'CamShift', #Rect&
                'meanShift' #Rect&
                ]

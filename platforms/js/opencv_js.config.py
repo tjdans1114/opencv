@@ -203,6 +203,18 @@ calib3d = {
         # cv::fisheye namespace
         'fisheye_initUndistortRectifyMap',
         'fisheye_projectPoints',
+
+        ##### custom build
+        'undistortPoints',
+        'calibrateCamera',
+        'cornerSubPix',
+        'drawChessboardCorners',
+        'findChessboardCorners',
+        'getOptimalNewCameraMatrix',
+        'fisheye_calibrate',
+        'fisheye_estimateNewCameraMatrixForUndistortRectify',
+        'fisheye_undistortImage',
+        'fisheye_undistortPoints',
     ],
 }
 
@@ -210,3 +222,4 @@ white_list = makeWhiteList([core, imgproc, objdetect, video, dnn, features2d, ph
 
 # namespace_prefix_override['dnn'] = ''  # compatibility stuff (enabled by default)
 # namespace_prefix_override['aruco'] = ''  # compatibility stuff (enabled by default)
+
